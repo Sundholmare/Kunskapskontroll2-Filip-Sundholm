@@ -31,7 +31,7 @@
 .main-form{
     padding: 10px;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -39,12 +39,14 @@
     width: 150px;
     height: 25px;
     border-radius: 5px;
+    border: 1px solid black; 
 }
 
 #submit{
     height: 25px;
-    width: 80px;
+    width: 50px;
     border-radius: 5px;
+    border: 1px solid black;
 }
 
 .weather-list{
@@ -61,4 +63,3 @@
     font-weight: 500;
     color: white;
 }
-
