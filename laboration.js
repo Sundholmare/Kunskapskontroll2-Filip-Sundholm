@@ -78,7 +78,7 @@ form.addEventListener('submit', function(event){
             wrapper.style.background = 'url(https://images.creativemarket.com/0.1.0/ps/1964355/1360/1844/m1/fpnw/wm1/zz8cohytpovc0itqksego3lwktlm2loas407csfivdjecs7apagyn8jvu7qopzx2-.jpg?1480452344&s=31e65325325e705e80e6681d3314fd52)'
         }else if(data.main.temp < 10){
             wrapper.style.background = 'cornflowerblue';
-            wrapper.style.transition = 'background 3s ease'
+            wrapper.style.transition = 'background 3s ease'// Transition som gör övergången snyggare
         }else if(data.main.temp < 15){
             wrapper.style.background = '#ffff99';
             wrapper.style.transition = 'background 3s ease'
